@@ -223,3 +223,12 @@ jacobi.rs        — Jacobi eigenvalue decomposition, conservation ratio
 ## License
 
 MIT
+
+## Ecosystem Integration
+
+- Core environment abstraction for the Plato subsystem — defines rooms, scenes, and spatial state
+- Uses `sheaf-cohomology` for topological structure of room layouts
+- Feeds all Plato agents: `plato-puppeteer`, `plato-playwright`, `plato-vision`, `plato-manus`, `plato-sonar-text`
+- Integrates with `OpenConstruct` for constructive geometry room definitions
+- Loaded by `plato-loader` for environment deserialization and initialization
+
