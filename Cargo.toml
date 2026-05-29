@@ -1,0 +1,10 @@
+[package]
+name = "plato-room"
+version = "0.1.0"
+edition = "2021"
+description = "PLATO rooms: knowledge as spectral graph. Tiles with dependencies, failure-first reading. Pure Rust, zero deps."
+license = "MIT"
+repository = "https://github.com/SuperInstance/plato-room"
+authors = ["SuperInstance"]
+
+[dependencies]
